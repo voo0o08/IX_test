@@ -1,0 +1,60 @@
+/* CSS 파일 시작 */
+
+/* 전체적인 스타일 설정 */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* 컨테이너 스타일 */
+  .container {
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* 제목 스타일 */
+  .container h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* 버튼 컨테이너 스타일 */
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* 버튼 스타일 */
+  .mode-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  /* 버튼 호버 효과 */
+  .mode-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  /* 링크 스타일 */
+  a {
+    text-decoration: none;
+  }
+  
+  /* CSS 파일 끝 */
+  

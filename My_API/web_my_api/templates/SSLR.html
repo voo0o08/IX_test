@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>CODA Acid Rain</title>
+  <link rel="stylesheet" href={{url_for('static', filename='style.css')}}>
+</head>
+<body>
+  <div id="container"> <!--반투명 네모 상자-->
+    <input id="input" type="text" placeholder="단어를 입력하세요.">
+  </div>
+
+  <div class="user_container">
+    <div id="user_name" class="user_div">사용자1</div>
+    <div id="user_face" class="user_div">
+      <video id="video" autoplay="true"/>
+    </div>
+    <div id="user_score" class="user_div">
+      <button id="captureButton" type="button">캡쳐</button>
+    </div>
+  </div>
+  <script src={{url_for('static', filename='SSLR.js')}}></script>
+<!-- "../static/index.js" -->
+</body>
+</html>
